@@ -1,4 +1,4 @@
-@Library('shared-slb') _
+@Library('shared-library') _
 
 firstpipeline(
   appName: 'login-ms'
