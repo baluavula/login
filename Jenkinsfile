@@ -1,4 +1,4 @@
-@Library('com.kotitechz@slb') _
+@Library('com.kotitechz-slb@main') _
 
 firstpipeline(
   appName: 'login-ms'
