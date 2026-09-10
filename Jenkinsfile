@@ -1,5 +1,3 @@
 @Library('com.kotitechz-slb@main') _
-
-src.main.com.kotitechs.builds.var.firstpipeline(
-  appName: 'login-ms'
-)
+def pipeline = new com.kotitechs.builds.FirstPipeline()
+pipeline.run(appName: 'login-ms')
